@@ -5,21 +5,22 @@ function SliderComponent({setValue,handelInput,bgColor,textColor}) {
     return (
         
         <>
-        <div className=" container text-center d-flex flex-column justify-content-center align-items-center" style={{gap:100}}>
-            <input type="range" min={0} max={100} value={setValue} onInput={handelInput}/>
+        <div className=" container text-center d-flex flex-column " style={{gap:100}}>
+            <input type="range" min={0} max={100} value={setValue} className={"form-range"} onInput={handelInput} style={{width:700,marginLeft:300}}/>
             <div style={{
 
                 color:!textColor?"black":textColor,
                 background:!bgColor?"lightgray":bgColor,
                 height:`${setValue*3}px`,
-                width:`${setValue*3}x`,
+                width:`${setValue*3}px`,
                 fontWeight:600,
                 borderRadius:"50%",
                 display:"flex",
                 justifyContent:"center",
-                alignContent:"center"
+                alignItems:"center",
+                marginLeft:550
             }} className={" "}>
-                <span>{setValue}</span>
+                <span >{setValue}</span>
             </div>
         </div>
         </>
