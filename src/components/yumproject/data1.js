@@ -2,6 +2,10 @@ import kabab from './kabab.jpg'
 import pizza from './pizza.jpg'
 import burger from './burger.jpg'
 import buryani from './baryani.jpg'
+
+const getImage1=()=>{
+    return new URL(`./{kabab}`,import.meta.url).href
+}
 export const topPicks=[
     {
         id:1,
