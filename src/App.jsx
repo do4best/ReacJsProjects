@@ -4,6 +4,8 @@ import Delivery from "./components/yumproject/delivery.jsx";
 import TopPics from "./components/yumproject/topPics.jsx";
 import SimpleImage from "./components/yumproject/simpleImage.jsx";
 import Meals from "./components/yumproject/meals.jsx";
+import NewLatter from "./components/yumproject/newLatter.jsx";
+import NewLetter from "./components/yumproject/newLetter.jsx";
 
 export default function App() {
     return (
@@ -13,6 +15,8 @@ export default function App() {
          <Delivery/>
          <TopPics/>
          <Meals/>
+
+         <NewLetter/>
 
      </>
     )

@@ -27,7 +27,7 @@ function Meals(props) {
                 {
                     food.map((item)=>(
                         <div className={"border-none hover:scale-105 duration-300 "} key={item.id}>
-                            <img src={item.img} alt={item.title}  className={" rounded-2xl h-full w-full object-cover  "}/>
+                            <img src={item.img} alt={item.title}  className={" rounded-2xl h-3/4 w-3/4 object-cover mt-4  "}/>
                             <div className="flex justify-between py-2 px-4">
                                 <p>{item.title}</p>
                                 <p className={"bg-orange-700 h-18 w-18 rounded-full -mt-10 text-white py-4 px-2 border-8 font-bold "}>{item.price}</p>
