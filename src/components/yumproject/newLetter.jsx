@@ -1,6 +1,6 @@
 import React from 'react';
 
-function NewLetter(props) {
+function NewLetter() {
     return (
         <>
         <div className="max-w-full m-auto text-white px-4 bg-[#24262b]">

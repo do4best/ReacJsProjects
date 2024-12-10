@@ -9,28 +9,28 @@ export const topPicks=[
         id:1,
         title:'Kabab',
         price:"500Rs",
-        img: '/fastfood/kabab.jpg'
+        img: 'src/assets/fastfood/kabab.jpg'
         
     },
     {
         id:2,
         title:'Pizza',
         price:"1500Rs",
-        img: '/fastfood/pizza.jpg'
+        img: 'src/assets/fastfood/pizza.jpg'
 
     },
     {
         id:3,
         title:'Burger',
         price:"150Rs",
-        img: '/fastfood/burger.jpg'
+        img: 'src/assets/fastfood/burger.jpg'
 
     },
     {
         id:4,
         title:'Baryani',
         price:"750Rs",
-        img: '/fastfood/baryani.jpg'
+        img: 'src/assets/fastfood/baryani.jpg'
 
     },
 

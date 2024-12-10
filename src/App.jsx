@@ -6,6 +6,7 @@ import SimpleImage from "./components/yumproject/simpleImage.jsx";
 import Meals from "./components/yumproject/meals.jsx";
 import NewLatter from "./components/yumproject/newLatter.jsx";
 import NewLetter from "./components/yumproject/newLetter.jsx";
+import Footer from "./components/yumproject/footer.jsx";
 
 export default function App() {
     return (
@@ -17,6 +18,7 @@ export default function App() {
          <Meals/>
 
          <NewLetter/>
+         <Footer/>
 
      </>
     )

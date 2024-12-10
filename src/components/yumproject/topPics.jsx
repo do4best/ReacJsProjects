@@ -1,9 +1,9 @@
 import React from 'react';
 import {topPicks} from "./data1.js";
-import kabab from '/public/fastfood/kabab.jpg'
-import pizza from '/public/fastfood/pizza.jpg'
-import burger from '/public/fastfood/burger.jpg'
-import buryani from '/public/fastfood/baryani.jpg'
+import kabab from '/src/assets/fastfood/kabab.jpg'
+import pizza from '/src/assets/fastfood/pizza.jpg'
+import burger from '/src/assets/fastfood/burger.jpg'
+import buryani from '/src/assets/fastfood/baryani.jpg'
 import {Splide, SplideSlide} from "@splidejs/react-splide";
 function TopPics() {
 const splideOption={
